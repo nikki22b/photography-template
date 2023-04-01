@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Button from './components/button/Button';
+import Stage from './components/stage/Stage';
+
+import assets from "./data/images.json"
 
 function App() {
   return (
     <div className="App">
-      <Button link="#">
-        Schreibe mir
-      </Button>
+      <Stage large={assets.stage.large} small={assets.stage.small} />
     </div>
   );
 }
