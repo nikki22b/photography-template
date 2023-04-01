@@ -1,5 +1,6 @@
 import React, { PropsWithChildren } from "react";
-import Button from "../button/Button";
+import Button from "../../components/button/Button";
+
 
 import styles from "./Stage.module.scss";
 
