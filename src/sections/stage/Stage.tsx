@@ -1,5 +1,6 @@
 import React, { PropsWithChildren } from "react";
-import Button from "../../components/button/Button";
+
+import Button from "../../components/Button/Button";
 
 
 import styles from "./Stage.module.scss";
@@ -22,7 +23,9 @@ large, small
                     className={styles.Stage__bg}
                 />
             </picture>
-            <Button link="#">
+            <Button 
+                tag="a"
+                href="#">
                 Schreib mir
             </Button>
         </div>

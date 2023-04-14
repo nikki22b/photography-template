@@ -1,3 +1,43 @@
 .FlipImage {
+    flex: 1 0 calc(33% - 24px);
+    perspective: 1000px;
+    height: fit-content;
+
+    &__flipper {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        position: relative;
+
+        &--clicked {
+            transform: rotateY(180deg);
+        }
+    }
+    &__front, &__back {
+        display: block;
+        width: 100%;
+        backface-visibility: hidden;
+    }
+
+    &__image {
+        max-width: 100%;
+    }
     
+    &__front {
+        z-index: 2;
+        transform: rotateY(0deg);
+    }
+
+    &__back {
+        transform: rotateY(180deg);
+        background-color: #000;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    &__text {
+        color: #fff;
+    }
+
 }

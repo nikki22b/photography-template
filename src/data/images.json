@@ -2,5 +2,37 @@
     "stage": {
         "large": "/assets/photography_stage_xl.png",
         "small": "/assets/photography_stage_xl.png"
-    }
+    },
+    "imageWall": [
+        {
+            "src": "/assets/image_01.jpg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ante vitae nisi dictum eleifend.",
+            "buttonText": "Alle Fotos"
+        },
+        {
+            "src": "/assets/image_02.jpg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ante vitae nisi dictum eleifend.",
+            "buttonText": "Alle Fotos"
+        },
+        {
+            "src": "/assets/image_03.jpg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ante vitae nisi dictum eleifend.",
+            "buttonText": "Alle Fotos"
+        },
+        {
+            "src": "/assets/image_04.jpg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ante vitae nisi dictum eleifend.",
+            "buttonText": "Alle Fotos"
+        },
+        {
+            "src": "/assets/image_05.jpg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ante vitae nisi dictum eleifend.",
+            "buttonText": "Alle Fotos"
+        },
+        {
+            "src": "/assets/image_06.jpg",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ante vitae nisi dictum eleifend.",
+            "buttonText": "Alle Fotos"
+        }
+    ]
 }
